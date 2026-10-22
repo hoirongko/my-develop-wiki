@@ -4,10 +4,10 @@ title: 목차
 aliases: [목차]
 type: index
 status: active
-version: "0.28.0"
+version: "0.28.1"
 created_at: 2026-06-19
 created_by: 정회석
-updated_at: 2026-09-23
+updated_at: 2026-10-22
 updated_by: 정회석
 audit_log:
   - action: created
@@ -120,6 +120,10 @@ audit_log:
     at: 2026-09-23
     by: 정회석
     note: "과거 로그 6항목 이관·구버전 삭제 안내와 개인 문서 표현 정리"
+  - action: updated
+    at: 2026-10-22
+    by: 정회석
+    note: "Node 최소 24.22.1·pnpm 12 필수화, version 0.28.1"
 tags: [wiki, index]
 stack: common
 scope: wiki-index
@@ -169,8 +173,8 @@ README.md            저장소 소개
 - [[naming-convention]]: 파일·식별자 네이밍.
 - [[lint-format]]: ESLint·Prettier 역할 분리와 개인 프로젝트 기본 설정.
 - [[git-hooks]]: Husky·nano-staged·typecheck, 코드 프로젝트의 커밋·push 검증.
-- [[package-manager]]: 개인 JS/TS 프로젝트 pnpm 기본값과 기존 매니저 존중.
-- [[node-version]]: Node LTS 선택·프로젝트 버전 고정.
+- [[package-manager]]: 개인 JS/TS 프로젝트 pnpm 12 필수(11 이하 금지)와 기존 매니저 존중.
+- [[node-version]]: Node LTS 선택·최소 24.22.1·프로젝트 버전 고정.
 - [[code-review]]: code-review-graph 사용과 코드 품질·접근성·디버깅 판단.
 
 ## Operations
